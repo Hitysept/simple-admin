@@ -1,0 +1,124 @@
+.bg-box {
+    position: fixed;
+    padding: 0 40px;
+    z-index: -1;
+    background: linear-gradient(135deg, #f8df72, #8e804b);
+    color: #8e804b;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    .bg-title {
+      display: flex;
+      flex-direction: row;
+      font-size: 250px;
+      -webkit-box-reflect: below -2px -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(250, 250, 250, 0.2)));
+
+      .bg-title-sub {
+        font-size: 160px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+      }
+    }
+}
+.JL-login-box {
+  width: 50%;
+}
+.JL-hight100{
+  height: 100vh;
+}
+.JL-flex {
+  display: flex;
+  .JL-flex-1 {
+    flex: 1;
+  }
+  .JL-flex-2 {
+    flex: 2;
+  }
+}
+.JL-col {
+  flex-direction: column;
+}
+.JL-align-center {
+  align-items: center;
+}
+.JL-justify-center {
+  justify-content: center;
+}
+.JL-flexend {
+  justify-content: flex-end;
+}
+.JL-text-center {
+  text-align: center;
+}
+.JLFrom {
+  .JLFrom-btn {
+      margin-left: 150px;
+  }
+}
+  
+.JL-MLR20 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.JL-MTB20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.JL-MTB10 {
+margin-top: 10px;
+  margin-bottom: 10px;
+}
+.JL-PLR20 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.JL-PTB20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.JL-title {
+  font-size: 30px;
+}
+
+.JLFooter{
+  width: 100%;
+  padding: 10px 0;
+  border-top: 1px solid #8e804b;
+}
+
+.JL-btn{
+  outline: none;
+  position: relative;
+  display: inline-block;
+  font-weight: 400;
+  white-space: nowrap;
+  text-align: center;
+  background-image: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+  user-select: none;
+  touch-action: manipulation;
+  line-height: 1.5714285714285714;
+  color: rgba(0, 0, 0, 0.88);
+  &.JL-btn-primary {
+    color: #fff;
+    background-color: #1677ff;
+    box-shadow: 0 2px 0 rgba(5, 145, 255, 0.1);
+  }
+  &.JL-btn-primary:not(:disabled):hover {
+    color: #fff;
+    background-color: #4096ff;
+  }
+  &.JL-btn-primary:not(:disabled):active {
+    color: #fff;
+    background-color: #4096ff;
+  }
+  &.JL-btn-block {
+    width: 100%;
+  }
+}
